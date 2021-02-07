@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: #f5f5f5;
+}
+header{
+    background: goldenrod;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0px 3px 6px gold;
+}
+#Wash,#stay,#calm{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 5vw;
+}
+#eat,#mask{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5vw;  
+}
+p,h2{
+    padding: 30px;
+}
